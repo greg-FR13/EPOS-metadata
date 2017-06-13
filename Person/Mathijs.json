@@ -1,0 +1,31 @@
+{
+  "eposap:CatalogRecord": [
+    "eposap:Person": {
+      "vcard:Individual": {
+        "vcard:fn": "Mathijs Reinier Koymans",
+        "vcard:hasAddress": {
+          "vcard:Address": {
+            "vcard:street-address": "Utrechtseweg 297",
+            "vcard:locality": "De Bilt",
+            "vcard:postal-code": "3731 GA",
+            "vcard:country-name": "Netherlands"
+          }
+        },
+        "vcard:hasEmail": "koymans@knmi.nl",
+        "vcard:hasURL": "http://www.orfeus-eu.org",
+        "vcard:hasTelephone": "0000000"
+      },
+      "eposap:personID": "orcid:0000.0000.0000.0000",
+      "eposap:afilliation": {
+        "eposap:OrganisationID": "knmi:orfeus"
+      },
+      "dct:language": 
+        "skos:Concept": {
+          "skos:prefLabel": "eng, dutch"
+        }
+      },
+      "eposap:qualification": "programmer, geologist",
+      "eposap:cv": "http://www.link-to-my-cv"
+    }
+  ]
+}

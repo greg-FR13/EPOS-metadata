@@ -1,0 +1,44 @@
+{
+  "eposap:CatalogRecord": [
+    "eposap:Organization": {
+      "vcard:fn": "ORFEUS Data Center",
+      "vcard:organization-name": "ORFEUS Data Center",
+      "vcard:hasAddress": {
+        "vcard:Address": {
+          "vcard:street-address": "Utrechtseweg 297",
+          "vcard:locality": "De Bilt",
+          "vcard:postal-code": "3731 GA",
+          "vcard:country-name": "Netherlands"
+        }
+      },
+      "vcard:hasEmail": "orfeus_secretary@knmi.nl",
+      "vcard:hasURL": "http://www.orfeus-eu.org",
+      "vcard:hasTelephone": "0302206911",
+      "vcard:hasLogo": "http://www.orfeus-eu.org/images/header_orfeus.png",
+      "dct:identifier": "epos:eida:knmi:orfeus",
+      "eposap:scientificContact": "epos:eida:knmi:orfeus:rsleeman",
+      "eposap:legalContact": "epos:eida:knmi:orfeus:rsleeman",
+      "eposap:financialContact": "epos:eida:knmi:orfeus:rsleeman",
+      "dct:spatial": {
+        "dct:Location": {
+          "locn:geometry": "POINT(52.101557 5.178021, 0)"
+        }
+      },
+      "dct:type": {
+        "skos:Concept": {
+          "skos:prefLabel": "EIDA Node"
+        }
+      },
+      "eposap:isPartOf": {
+        "eposap:organisationID": "epos:eida"
+      },
+      "eposap:associatedProjects": {
+        "eposap:projectID": "epos:projects:epos-ip"
+      },
+      "eposap:funding": null,
+      "eposap:fundingCurrency": "EUR",
+      "eposap:costs": null,
+      "eposap:costCurrency": "EUR"
+    }
+  ]
+}
