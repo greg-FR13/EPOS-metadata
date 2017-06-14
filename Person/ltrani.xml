@@ -1,0 +1,21 @@
+<!-- EPOS Person -->
+<eposap:Person>
+        <vcard:fn>Trani, Luca</vcard:fn><!-- Last Name, Given Name -->
+        <vcard:hasAddress><!-- Postal Address -->
+                <vcard:Address>
+                        <vcard:street-address>Utrechtseweg 297</vcard:street-address>
+                        <vcard:locality>De Bilt</vcard:locality>
+                        <vcard:postal-code>3731GA</vcard:postal-code>
+                        <vcard:country-name>The Netherlands</vcard:country-name>
+                </vcard:Address>
+        </vcard:hasAddress>
+        <vcard:hasEmail>trani@knmi.nl</vcard:hasEmail><!-- Email -->
+        <vcard:hasTelephone>+310302206297</vcard:hasTelephone><!-- Phone -->
+        <dct:identifier>orcid.org/0000-0001-7750-7254</dct:identifier><!-- Unique Identifier -->
+        <eposap:affiliation>KNMI_ID</eposap:affiliation><!-- Organisation -->
+        <dct:language><!-- Language for contact -->
+                <dct:LinguisticSystem>Eng</dct:LinguisticSystem>
+        </dct:language>
+        <schema:qualifications>Senior Advisor, Researcher</schema:qualifications><!-- Qualification -->
+        <vcard:hasURL> http://test.org/cv.pdf </vcard:hasURL><!-- CV -->
+</eposap:Person>
