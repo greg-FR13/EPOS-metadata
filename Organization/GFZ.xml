@@ -1,0 +1,33 @@
+<!-- EPOS Organisation -->
+<eposap:Organisation>
+  <!-- Title (english) -->
+  <vcard:fn>GFZ German Research Centre for Geosciences</vcard:fn>
+  <!-- Title (native lang) -->
+  <vcard:organization-name>Helmholtz Zentrum Potsdam Deutsches GeoForschungsZentrum GFZ</vcard:organization-name>
+  <!-- Postal Address -->
+  <vcard:hasAddress>
+    <vcard:Address>
+      <vcard:street-address>Telegrafenberg</vcard:street-address>
+      <vcard:locality>Potsdam</vcard:locality>
+      <vcard:postal-code>14473</vcard:postal-code>
+      <vcard:country-name>Germany</vcard:country-name>
+    </vcard:Address>
+  </vcard:hasAddress>
+  <!-- Website -->
+  <vcard:hasURL>http://www.gfz-potsdam.de/</vcard:hasURL>
+  <!-- Logo -->
+  <vcard:hasLogo>https://media.gfz-potsdam.de/gfz/wv/05_Medien_Kommunikation/Bildarchiv/GFZ%20Logo/temp_xs/LOGO-GFZ-en-mitFreistellungsraum_RGB_24bit_300dpi_546x390-jpg.jpg</vcard:hasLogo>
+  <!-- Unique Identifier -->
+  <dct:identifier>PIC:999994341</dct:identifier>
+  <!-- Scientific Contact -->
+  <eposap:scientificContact>orcid:0000-0001-9993-4003</eposap:scientificContact>
+  <!-- Spatial Coordinates -->
+  <dct:spatial>
+    <dct:Location>
+      <!-- POINT(lon lat elevation) -->
+      <locn:geometry>POINT(13.06636, 52.38294, 0)</locn:geometry>
+    </dct:Location>
+  </dct:spatial>
+  <!-- Type -->
+  <dct:type>Public Research Institute</dct:type>
+</eposap:Organisation>

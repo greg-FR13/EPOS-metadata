@@ -1,0 +1,72 @@
+<eposap:Webservice>
+  <dcat:Distribution>
+    <dct:title>GFZ - FDSN Dataselect</dct:title>
+    <dct:description>FDSN Standard webservice at GFZ to download waveform data</dct:description>
+    <dcat:accessURL>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dcat:accessURL>
+    <dct:issued>2017-06-19</dct:issued>
+    <dct:format>
+      <skos:Concept>
+        <skos:prefLabel>application/vnd.fdsn.mseed</skos:prefLabel>
+        <skos:inScheme/>
+      </skos:Concept>
+    </dct:format>
+    <dct:license>
+      <skos:Concept>
+        <skos:prefLabel>To be defined!</skos:prefLabel>
+        <skos:inScheme/>
+      </skos:Concept>
+    </dct:license>
+    <dct:rights>To be defined!</dct:rights>
+    <foaf:page>
+      <foaf:Document>
+        <foaf:primaryTopic>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/</foaf:primaryTopic>
+      </foaf:Document>
+    </foaf:page>
+    <dct:conformsTo>EPSG:4326</dct:conformsTo>
+  </dcat:Distribution>
+  <dcat:WebService/>
+  <dct:identifier>GFZ-dataselect</dct:identifier>
+  <dct:created>2016-01-01</dct:created>
+  <dct:type>
+    <skos:Concept>
+      <skos:prefLabel/>
+      <skos:inScheme/>
+    </skos:Concept>
+  </dct:type>
+  <eposap:keyword>Dataselect</eposap:keyword>
+  <eposap:keyword>FDSN-WS</eposap:keyword>
+  <eposap:keyword>Seismic Waveform</eposap:keyword>
+  <eposap:keyword>EIDA</eposap:keyword>
+  <eposap:parameter>starttime</eposap:parameter>
+  <eposap:parameter>endtime</eposap:parameter>
+  <eposap:parameter>network</eposap:parameter>
+  <eposap:parameter>station</eposap:parameter>
+  <eposap:parameter>location</eposap:parameter>
+  <eposap:parameter>channel</eposap:parameter>
+  <eposap:parameter>quality</eposap:parameter>
+  <eposap:parameter>minimumlength</eposap:parameter>
+  <eposap:contact>
+    <eposap:personID>orcid:0000-0001-9993-4003</eposap:personID>
+  </eposap:contact>
+  <eposap:responsibleParty>
+    <eposap:personID></eposap:personID>
+  </eposap:responsibleParty>
+  <dct:spatial>
+    <dct:Location/>
+      <locn:geometry>POINT(13.06636, 52.38294, 0)</locn:geometry>
+    </dct:Location>
+  </dct:spatial>
+  <adms:representationTechnique>
+    <skos:Concept>
+      <skos:prefLabel>point</skos:prefLabel>
+    </skos:Concept>
+  </adms:representationTechnique>
+  <dct:temporal>
+    <dct:PeriodOfTime>
+      <schema:startDate>1993-01-01</schema:startDate>
+      <schema:endDate/>
+    </dct:PeriodOfTime>
+  </dct:temporal>
+  <dct:provenance/>
+  <dct:source>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dct:source>
+</eposap:Webservice>

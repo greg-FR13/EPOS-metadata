@@ -1,0 +1,27 @@
+<!-- EPOS Person -->
+<eposap:Person>
+  <!-- Last Name, Given Name -->
+  <vcard:fn>Quinteros, Javier</vcard:fn>
+  <!-- Postal Address -->
+  <vcard:hasAddress>
+    <vcard:Address>
+      <vcard:street-address>Telegrafenberg</vcard:street-address>
+      <vcard:locality>Potsdam</vcard:locality>
+      <vcard:postal-code>14473</vcard:postal-code>
+      <vcard:country-name>Germany</vcard:country-name>
+    </vcard:Address>
+  </vcard:hasAddress>
+  <!-- Email -->
+  <vcard:hasEmail>javier@gfz-potsdam.de</vcard:hasEmail>
+  <vcard:hasTelephone>+493312881931</vcard:hasTelephone><!-- Phone -->
+  <dct:identifier>orcid:0000-0001-9993-4003</dct:identifier><!-- Unique Identifier -->
+  <!-- Organisation. Use the PIC from the European Commission. -->
+  <eposap:affiliation>PIC:999994341</eposap:affiliation>
+  <dct:language><!-- Language for contact -->
+    <dct:LinguisticSystem>en</dct:LinguisticSystem>
+    <dct:LinguisticSystem>de</dct:LinguisticSystem>
+    <dct:LinguisticSystem>es</dct:LinguisticSystem>
+  </dct:language>
+  <schema:qualifications>Data Manager, Researcher</schema:qualifications><!-- Qualification -->
+  <vcard:hasURL>http://www.gfz-potsdam.de/en/staff/javier-quinteros/</vcard:hasURL><!-- CV -->
+</eposap:Person>
