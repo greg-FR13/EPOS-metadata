@@ -5,9 +5,9 @@
     <dcat:accessURL>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dcat:accessURL>
     <dct:issued>2017-06-19</dct:issued>
     <dct:format>
-      <dct:MediaType>
+      <dct:MediaTypeOrExtent>
         application/vnd.fdsn.mseed
-      </dct:MediaType>
+      </dct:MediaTypeOrExtent>
     </dct:format>
     <dct:license>
       <skos:Concept>
