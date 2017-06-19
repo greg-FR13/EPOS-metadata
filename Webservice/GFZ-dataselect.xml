@@ -21,10 +21,10 @@
         <foaf:primaryTopic>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/</foaf:primaryTopic>
       </foaf:Document>
     </foaf:page>
-    <dct:conformsTo>EPSG:4326</dct:conformsTo>
+    <dct:conformsTo>http://www.opengis.net/def/crs/EPSG/0/4326</dct:conformsTo>
   </dcat:Distribution>
   <dcat:WebService/>
-  <dct:identifier>GFZ-dataselect</dct:identifier>
+  <dct:identifier>geofon.gfz-potsdam.de/fdsnws/dataselect/1/</dct:identifier>
   <dct:created>2016-01-01</dct:created>
   <dct:type>
     data service
