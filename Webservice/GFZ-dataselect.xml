@@ -5,10 +5,9 @@
     <dcat:accessURL>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dcat:accessURL>
     <dct:issued>2017-06-19</dct:issued>
     <dct:format>
-      <skos:Concept>
-        <skos:prefLabel>application/vnd.fdsn.mseed</skos:prefLabel>
-        <skos:inScheme/>
-      </skos:Concept>
+      <dct:MediaType>
+        application/vnd.fdsn.mseed
+      </dct:MediaType>
     </dct:format>
     <dct:license>
       <skos:Concept>
@@ -28,23 +27,88 @@
   <dct:identifier>GFZ-dataselect</dct:identifier>
   <dct:created>2016-01-01</dct:created>
   <dct:type>
-    <skos:Concept>
-      <skos:prefLabel/>
-      <skos:inScheme/>
-    </skos:Concept>
+    data service
   </dct:type>
+  <!-- This property refers to the domain of resource (e.g. Seismology, GNSS etc.) -->
+  <eposap:domain>
+    Seismology
+  </eposap:domain>
   <eposap:keyword>Dataselect</eposap:keyword>
   <eposap:keyword>FDSN-WS</eposap:keyword>
   <eposap:keyword>Seismic Waveform</eposap:keyword>
   <eposap:keyword>EIDA</eposap:keyword>
-  <eposap:parameter>starttime</eposap:parameter>
-  <eposap:parameter>endtime</eposap:parameter>
-  <eposap:parameter>network</eposap:parameter>
-  <eposap:parameter>station</eposap:parameter>
-  <eposap:parameter>location</eposap:parameter>
-  <eposap:parameter>channel</eposap:parameter>
-  <eposap:parameter>quality</eposap:parameter>
-  <eposap:parameter>minimumlength</eposap:parameter>
+  <eposap:parameter>
+          <http:paramName>starttime</http:paramName>
+          <dct:type>
+                  time
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>endtime</http:paramName>
+          <dct:type>
+                  time
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>network</http:paramName>
+          <dct:type>
+                  string
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>station</http:paramName>
+          <dct:type>
+                  string
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>location</http:paramName>
+          <dct:type>
+                  string
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>channel</http:paramName>
+          <dct:type>
+                  string
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>quality</http:paramName>
+          <dct:type>
+                  string
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>minimumlength</http:paramName>
+          <dct:type>
+                  integer
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
+  <eposap:parameter>
+          <http:paramName>nodata</http:paramName>
+          <dct:type>
+                  integer
+          </dct:type>
+          <owl:versionInfo>1.0</owl:versionInfo>
+  </eposap:parameter>
+
   <eposap:contact>
     <eposap:personID>orcid:0000-0001-9993-4003</eposap:personID>
   </eposap:contact>
@@ -53,7 +117,7 @@
   </eposap:responsibleParty>
   <dct:spatial>
     <dct:Location/>
-      <locn:geometry>POINT(13.06636, 52.38294, 0)</locn:geometry>
+      <locn:geometry>POINT(13.06636 52.38294 0)</locn:geometry>
     </dct:Location>
   </dct:spatial>
   <adms:representationTechnique>

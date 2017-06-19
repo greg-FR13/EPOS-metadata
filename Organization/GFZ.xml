@@ -25,7 +25,7 @@
   <dct:spatial>
     <dct:Location>
       <!-- POINT(lon lat elevation) -->
-      <locn:geometry>POINT(13.06636, 52.38294, 0)</locn:geometry>
+      <locn:geometry>POINT(13.06636 52.38294 0)</locn:geometry>
     </dct:Location>
   </dct:spatial>
   <!-- Type -->
