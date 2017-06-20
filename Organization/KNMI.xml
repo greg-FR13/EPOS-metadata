@@ -1,29 +1,43 @@
-<!-- EPOS Organisation -->
-<eposap:Organisation>
-        <vcard:fn>The Royal Netherlands Meteorological Institute KNMI </vcard:fn><!-- Title (english) -->
-        <vcard:organization-name>Royal Netherlands Meteorological Institute KNMI</vcard:organization-name><!-- Title (native lang) -->
-        <vcard:hasAddress><!-- Postal Address -->
-                <vcard:Address>
-                        <vcard:street-address>Utrechtseweg 297</vcard:street-address>
-                        <vcard:locality>De Bilt</vcard:locality>
-                        <vcard:postal-code>3730AE</vcard:postal-code>
-                        <vcard:country-name>The Netherlands</vcard:country-name>
-                </vcard:Address>
-        </vcard:hasAddress>
-        <vcard:hasEmail>knmi@test.org</vcard:hasEmail><!-- Email -->
-        <vcard:hasURL>www.knmi.nl/</vcard:hasURL><!-- Website -->
-        <vcard:hasLogo>http://cdn.knmi.nl/assets/logo_large-1f49334b8856e16f352187f1b52d0edf258976c6329407b0b75f5f109ea012fb.png</vcard:hasLogo><!-- Logo -->
-        <dct:identifier>KNMI_ID</dct:identifier><!-- Unique Identifier -->
-        <eposap:scientificContact>personID01</eposap:scientificContact><!-- Scientific Contact -->
-        <dct:spatial><!-- Spatial Coordinates -->
-                <dct:Location>
-                        <locn:geometry>POINT(52.1039735 5.1846388 15)</locn:geometry><!-- POINT(lon lat elevation) -->
-                </dct:Location>
-        </dct:spatial>
-        <dct:type>Governamental Agency</dct:type><!-- Type -->
-        <eposap:legalContact>personID01</eposap:legalContact><!-- Legal Contact -->
-        <eposap:financialContact>personID01</eposap:financialContact><!-- Financial Contact -->
-        <eposap:isPartOf>KNMI_ID</eposap:isPartOf><!-- Is part of -->
-        <eposap:associatedProjects>projectID01</eposap:associatedProjects><!-- Associated Project -->
-</eposap:Organisation>
+<?xml version="1.0" encoding="UTF-8"?>
 
+<eposap:Epos
+        xmlns:adms="http://www.w3.org/ns/adms#"
+        xmlns:cnt="http://www.w3.org/2008/content#" xmlns:dcat="http://www.w3.org/ns/dcat#"
+        xmlns:dct="http://purl.org/dc/terms/" xmlns:eposap="http://www.epos-ip.org/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:http="http://www.w3.org/2006/http#"
+        xmlns:locn="http://www.w3.org/ns/locn#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.epos-ip.org/ https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/master/schemas/EPOS-DCAT-AP.xsd">
+
+        <!-- KNMI Organisation -->
+	<eposap:Organisation>
+		<dct:identifier>pic:999518944</dct:identifier>
+		<vcard:fn>KNMI Koninklijk Nederlands Metereologisch Instituut</vcard:fn>
+		<vcard:organization-name>KNMI Koninklijk Nederlands Metereologisch Instituut</vcard:organization-name>
+		<vcard:hasAddress>
+			<vcard:Address>
+				<vcard:street-address>Utrechtseweg 297</vcard:street-address>
+				<vcard:locality>De Bilt</vcard:locality>
+				<vcard:postal-code>3731 GA</vcard:postal-code>
+				<vcard:country-name>Netherlands</vcard:country-name>
+			</vcard:Address>
+		</vcard:hasAddress>
+		<vcard:hasEmail></vcard:hasEmail>
+		<vcard:hasURL>https://knmi.nl</vcard:hasURL>
+		<vcard:hasLogo>http://cdn.knmi.nl/assets/logo_large-1f49334b8856e16f352187f1b52d0edf258976c6329407b0b75f5f109ea012fb.png</vcard:hasLogo>
+		<dct:spatial>
+			<dct:Location>
+				<locn:geometry>POINT(52.1039735 5.1846388 0)</locn:geometry>
+			</dct:Location>
+		</dct:spatial>
+		<dct:type>Governmental Agency</dct:type>
+		<eposap:scientificContact></eposap:scientificContact>
+		<eposap:legalContact></eposap:legalContact>
+		<eposap:financialContact></eposap:financialContact>
+		<eposap:isPartOf></eposap:isPartOf>
+		<eposap:associatedProjects></eposap:associatedProjects>
+	</eposap:Organisation>
+
+</eposap:Epos>
