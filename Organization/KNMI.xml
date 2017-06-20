@@ -36,7 +36,7 @@
 		<eposap:scientificContact></eposap:scientificContact>
 		<eposap:legalContact></eposap:legalContact>
 		<eposap:financialContact></eposap:financialContact>
-		<eposap:isPartOf></eposap:isPartOf>
+		<eposap:isPartOf>pic:997012076</eposap:isPartOf>
 		<eposap:associatedProjects></eposap:associatedProjects>
 	</eposap:Organisation>
 
