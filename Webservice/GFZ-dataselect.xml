@@ -42,7 +42,7 @@
           <dct:type>
                   time
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -50,7 +50,7 @@
           <dct:type>
                   time
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -58,7 +58,7 @@
           <dct:type>
                   string
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -66,7 +66,7 @@
           <dct:type>
                   string
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -74,7 +74,7 @@
           <dct:type>
                   string
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -82,7 +82,7 @@
           <dct:type>
                   string
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -90,7 +90,7 @@
           <dct:type>
                   string
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -98,7 +98,7 @@
           <dct:type>
                   integer
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:parameter>
@@ -106,12 +106,13 @@
           <dct:type>
                   integer
           </dct:type>
-          <owl:versionInfo>1.0</owl:versionInfo>
+          <owl:versionInfo>1.1</owl:versionInfo>
   </eposap:parameter>
 
   <eposap:contact>
     <eposap:personID>orcid:0000-0001-9993-4003</eposap:personID>
   </eposap:contact>
+  <!-- responsibleParty -->
   <eposap:responsibleParty>
     <eposap:personID></eposap:personID>
   </eposap:responsibleParty>
