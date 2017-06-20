@@ -13,6 +13,8 @@
       <vcard:country-name>Germany</vcard:country-name>
     </vcard:Address>
   </vcard:hasAddress>
+  <!-- Email -->
+  <vcard:hasEmail>info@gfz-potsdam.de</vcard:hasEmail>
   <!-- Website -->
   <vcard:hasURL>http://www.gfz-potsdam.de/</vcard:hasURL>
   <!-- Logo -->
@@ -26,9 +28,15 @@
   <dct:spatial>
     <dct:Location>
       <!-- POINT(lon lat elevation) -->
-      <locn:geometry>POINT(13.06636 52.38294 0)</locn:geometry>
+      <locn:geometry>POINT(13.06636 52.38294)</locn:geometry>
     </dct:Location>
   </dct:spatial>
   <!-- Type -->
   <dct:type>Public Research Institute</dct:type>
+  <!-- Legal Contact -->
+  <eposap:legalContact>Legal Contact: N/A</eposap:legalContact>
+  <!-- Financial Contact -->
+  <eposap:financialContact>Financial Contact: N/A</eposap:financialContact>
+  <!-- isPartOf TODO: Should we add GFZ as part of ORFEUS? -->
+  <!-- <eposap:isPartOf>pic:997012076</eposap:isPartOf> -->
 </eposap:Organisation>
