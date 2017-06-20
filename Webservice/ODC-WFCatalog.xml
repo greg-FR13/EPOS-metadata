@@ -13,6 +13,7 @@
 
         <!-- ODC WFCatalog WebService -->
 	<eposap:WebService>
+
 		<dct:identifier>eida:odc:webservice:wfcatalog</dct:identifier>
 		<dct:title>ORFEUS Data Center WFCatalog Web Service</dct:title>
 		<dct:description>The web service returns waveform metadata and sample metrics</dct:description>
@@ -21,7 +22,7 @@
 		<dct:created>2017-09-01T00:00:00</dct:created>
 		<dct:license>Creative Commons for data, Open Source licences for software</dct:license>
 		<foaf:page>
-			<foaf:primaryTopic>http://www.orfeus-eu.org/eidaws/wfcatalog/1/query</foaf:primaryTopic>
+			<foaf:primaryTopic>http://www.orfeus-eu.org/eidaws/wfcatalog/1/query?</foaf:primaryTopic>
 		</foaf:page>
 		<dct:format>
 			<dct:MediaTypeOrExtent>application/json</dct:MediaTypeOrExtent>
@@ -29,251 +30,158 @@
 		<dct:rights>
 			<dct:RightsStatement>open data</dct:RightsStatement>
 		</dct:rights>
-		<dct:conformsTo></dct:conformsTo>
-		<eposap:domain>Seismology</eposap:domain>
-	        <eposap:subDomain>Seismology</eposap:subDomain>
-		<dct:type>data service</dct:type>
-		<dcat:keyword>data quality, availability, metrics, waveform, metadata</dcat:keyword>
+		<dct:conformsTo>EPSG:4326</dct:conformsTo>
+		<eposap:domain>seismology</eposap:domain>
+	        <eposap:subDomain>waveform quality</eposap:subDomain>
+		<dcat:keyword>EIDA, ODC, data quality, availability, metrics, waveform, metadata</dcat:keyword>
+		<eposap:operation>download</eposap:operation>
 	
 	        <eposap:parameter>
 	                <http:paramName>starttime</http:paramName>
-	                <dct:type>
-	                        time
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+			<rdf:label>Starttime</rdf:label>
+	                <dct:type>time</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>endtime</http:paramName>
-	                <dct:type>
-	                        time
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>time</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>percent_availability_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>percent_availability_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_gaps_gt</http:paramName>
-	                <dct:type>
-	                        int
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>int</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_gaps_lt</http:paramName>
-	                <dct:type>
-	                        int
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>int</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_overlaps_gt</http:paramName>
-	                <dct:type>
-	                        int
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>int</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_overlaps_lt</http:paramName>
-	                <dct:type>
-	                        int
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>int</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_stdev_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_stdev_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_rms_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_rms_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>max_gap_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>max_gap_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_min_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 
 	        <eposap:parameter>
 	                <http:paramName>sample_min_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_max_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 
 	        <eposap:parameter>
 	                <http:paramName>sample_max_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>sample_mean_gt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 
 	        <eposap:parameter>
 	                <http:paramName>sample_mean_lt</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>network</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>string</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>station</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>string</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>location</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>string</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>channel</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
-	        </eposap:parameter>
-	
-	        <eposap:parameter>
-	                <http:paramName>contributor</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
-	        </eposap:parameter>
-	
-	        <eposap:parameter>
-	                <http:paramName>catalog</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>string</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>csegments</http:paramName>
-	                <dct:type>
-	                        boolean
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>boolean</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>longestonly</http:paramName>
-	                <dct:type>
-	                        boolean
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>boolean</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>minlen</http:paramName>
-	                <dct:type>
-	                        float
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>float</dct:type>
 	        </eposap:parameter>
 
 	        <eposap:parameter>
 	                <http:paramName>include</http:paramName>
-	                <dct:type>
-	                        string
-	                </dct:type>
-	                <owl:versionInfo>1.0</owl:versionInfo>
+	                <dct:type>string</dct:type>
+			<http:paramValue>default</http:paramValue>
+			<http:paramValue>samples</http:paramValue>
+			<http:paramValue>header</http:paramValue>
+			<http:paramValue>all</http:paramValue>
 	        </eposap:parameter>
+
+	        <owl:versionInfo>1.0</owl:versionInfo>
 	
 		<dcat:contactPoint>orcid:0000-0002-6250-2474</dcat:contactPoint>
 		<eposap:responsibleParty>pic:999518944</eposap:responsibleParty>
