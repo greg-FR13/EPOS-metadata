@@ -18,7 +18,8 @@
   <!-- Logo -->
   <vcard:hasLogo>https://media.gfz-potsdam.de/gfz/wv/05_Medien_Kommunikation/Bildarchiv/GFZ%20Logo/temp_xs/LOGO-GFZ-en-mitFreistellungsraum_RGB_24bit_300dpi_546x390-jpg.jpg</vcard:hasLogo>
   <!-- Unique Identifier -->
-  <dct:identifier>PIC:999994341</dct:identifier>
+  <!-- GFZ PIC from the EU Research Council -->
+  <dct:identifier>pic:999994341</dct:identifier>
   <!-- Scientific Contact -->
   <eposap:scientificContact>orcid:0000-0001-9993-4003</eposap:scientificContact>
   <!-- Spatial Coordinates -->

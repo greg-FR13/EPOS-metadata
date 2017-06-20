@@ -1,137 +1,119 @@
 <eposap:Webservice>
-  <dcat:Distribution>
-    <dct:title>GFZ - FDSN Dataselect</dct:title>
-    <dct:description>FDSN Standard webservice at GFZ to download waveform data</dct:description>
-    <dcat:accessURL>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dcat:accessURL>
-    <dct:issued>2017-06-19</dct:issued>
-    <dct:format>
-      <dct:MediaTypeOrExtent>
-        application/vnd.fdsn.mseed
-      </dct:MediaTypeOrExtent>
-    </dct:format>
-    <dct:license>
-      <skos:Concept>
-        <skos:prefLabel>To be defined!</skos:prefLabel>
-        <skos:inScheme/>
-      </skos:Concept>
-    </dct:license>
-    <dct:rights>To be defined!</dct:rights>
-    <foaf:page>
-      <foaf:Document>
-        <foaf:primaryTopic>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/</foaf:primaryTopic>
-      </foaf:Document>
-    </foaf:page>
-    <dct:conformsTo>http://www.opengis.net/def/crs/EPSG/0/4326</dct:conformsTo>
-  </dcat:Distribution>
-  <dcat:WebService/>
+  <dct:title>FDSN Dataselect - German Research Centre for Geosciences (GFZ)</dct:title>
+  <dct:description>FDSN Standard webservice at GFZ to download waveform data</dct:description>
+  <!-- DEPRECATED?: <dcat:accessURL>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dcat:accessURL> -->
+  <dct:issued>2016-01-01</dct:issued>
+  <dct:modified>2016-01-01</dct:modified>
+  <dct:license>To be defined!</dct:license>
+  <foaf:page>
+    <foaf:primaryTopic>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query?</foaf:primaryTopic>
+  </foaf:page>
+  <dct:format>
+    <dct:MediaTypeOrExtent>
+      application/vnd.fdsn.mseed
+    </dct:MediaTypeOrExtent>
+  </dct:format>
+  <dct:rights>
+    <dcat:RightsStatement>
+      To be defined!
+    </dcat:RightsStatement>
+  </dct:rights>
+  <dct:conformsTo>EPSG:4326</dct:conformsTo>
   <dct:identifier>geofon.gfz-potsdam.de/fdsnws/dataselect/1/</dct:identifier>
   <dct:created>2016-01-01</dct:created>
-  <dct:type>
-    data service
-  </dct:type>
   <!-- This property refers to the domain of resource (e.g. Seismology, GNSS etc.) -->
   <eposap:domain>
     Seismology
   </eposap:domain>
-  <eposap:keyword>Dataselect</eposap:keyword>
-  <eposap:keyword>FDSN-WS</eposap:keyword>
-  <eposap:keyword>Seismic Waveform</eposap:keyword>
-  <eposap:keyword>EIDA</eposap:keyword>
+  <eposap:subDomain>
+    Waveforms
+  </eposap:subDomain>
+  <dcat:keyword>GFZ,Dataselect,FDSN-WS,Seismic Waveform,EIDA</dcat:keyword>
+  <eposap:operation>
+    download
+  </eposap:operation>
+  <owl:versionInfo>1.1</owl:versionInfo>
   <eposap:parameter>
-          <http:paramName>starttime</http:paramName>
-          <dct:type>
-                  time
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>starttime</http:paramName>
+    <rdf:label>Start of the timespan</rdf:label>
+    <dct:type>
+            time
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>endtime</http:paramName>
-          <dct:type>
-                  time
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>endtime</http:paramName>
+    <dct:type>
+            time
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>network</http:paramName>
-          <dct:type>
-                  string
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>network</http:paramName>
+    <dct:type>
+            string
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>station</http:paramName>
-          <dct:type>
-                  string
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>station</http:paramName>
+    <dct:type>
+            string
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>location</http:paramName>
-          <dct:type>
-                  string
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>location</http:paramName>
+    <dct:type>
+            string
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>channel</http:paramName>
-          <dct:type>
-                  string
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>channel</http:paramName>
+    <dct:type>
+            string
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>quality</http:paramName>
-          <dct:type>
-                  string
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>quality</http:paramName>
+    <dct:type>
+            string
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>minimumlength</http:paramName>
-          <dct:type>
-                  integer
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>minimumlength</http:paramName>
+    <dct:type>
+            integer
+    </dct:type>
   </eposap:parameter>
 
   <eposap:parameter>
-          <http:paramName>nodata</http:paramName>
-          <dct:type>
-                  integer
-          </dct:type>
-          <owl:versionInfo>1.1</owl:versionInfo>
+    <http:paramName>nodata</http:paramName>
+    <dct:type>
+            integer
+    </dct:type>
   </eposap:parameter>
 
-  <eposap:contact>
-    <eposap:personID>orcid:0000-0001-9993-4003</eposap:personID>
-  </eposap:contact>
-  <!-- responsibleParty -->
-  <eposap:responsibleParty>
-    <eposap:personID></eposap:personID>
-  </eposap:responsibleParty>
+  <dcat:contactPoint>orcid:0000-0001-9993-4003</eposap:contact>
+  <!-- Publisher (previously responsibleParty) -->
+  <!-- GFZ PIC from the EU Research Council -->
+  <dct:publisher>pic:999994341</dct:publisher>
   <dct:spatial>
     <dct:Location/>
-      <locn:geometry>POINT(13.06636 52.38294 0)</locn:geometry>
+      <locn:geometry>POLYGON(180.0 -90.0, -180.0 -90.0, -180.0 90.0, 180.0 90.0, 180.0 -90.0)</locn:geometry>
     </dct:Location>
   </dct:spatial>
-  <adms:representationTechnique>
-    <skos:Concept>
-      <skos:prefLabel>point</skos:prefLabel>
-    </skos:Concept>
-  </adms:representationTechnique>
+  <adms:representationTechnique>point</adms:representationTechnique>
   <dct:temporal>
     <dct:PeriodOfTime>
       <schema:startDate>1993-01-01</schema:startDate>
       <schema:endDate/>
     </dct:PeriodOfTime>
   </dct:temporal>
+  <!-- Lineage - Provenance -->
   <dct:provenance/>
   <dct:source>http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query</dct:source>
 </eposap:Webservice>
