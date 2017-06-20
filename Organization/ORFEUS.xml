@@ -24,13 +24,13 @@
                         </vcard:Address>
                 </vcard:hasAddress>
                 <vcard:hasEmail></vcard:hasEmail>
-                <vcard:hasURL>http://www.orfeus-eu.org</vcard:hasURL>
+                <vcard:hasURL>http://www.orfeus-eu.org/</vcard:hasURL>
                 <vcard:hasLogo></vcard:hasLogo>
                 <dct:identifier>pic:997012076</dct:identifier>
                 <eposap:scientificContact></eposap:scientificContact>
                 <dct:spatial>
                         <dct:Location>
-                                <locn:geometry>POINT(52.1039735 5.1846388 0)</locn:geometry>
+                                <locn:geometry>POINT(5.1846388 52.1039735 0)</locn:geometry>
                         </dct:Location>
                 </dct:spatial>
                 <dct:type>Non-profit Organisation</dct:type>
