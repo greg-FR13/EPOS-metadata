@@ -266,7 +266,7 @@
 	                </dct:type>
 	                <owl:versionInfo>1.0</owl:versionInfo>
 	        </eposap:parameter>
-n	
+
 	        <eposap:parameter>
 	                <http:paramName>include</http:paramName>
 	                <dct:type>
