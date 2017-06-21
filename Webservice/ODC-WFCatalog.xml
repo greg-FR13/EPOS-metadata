@@ -14,7 +14,7 @@
         <!-- ODC WFCatalog WebService -->
 	<eposap:WebService>
 
-		<dct:identifier>eida:odc:webservice:wfcatalog</dct:identifier>
+		<dct:identifier>eida-odc-webservice-wfcatalog</dct:identifier>
 		<dct:title>ORFEUS Data Center WFCatalog Web Service</dct:title>
 		<dct:description>The web service returns waveform metadata and data quality metrics</dct:description>
 		<dct:issued>2017-09-01T00:00:00</dct:issued>
@@ -39,6 +39,7 @@
 	        <eposap:subDomain>waveform quality</eposap:subDomain>
 		<dcat:keyword>EIDA,ODC,dataquality,availability,metrics,waveform,metadata</dcat:keyword>
 		<eposap:operation>download</eposap:operation>
+                <dct:hasVersion>1.0.0</dct:hasVersion>
 	
 		<dct:spatial>
 			<dct:Location>
@@ -48,13 +49,13 @@
 
 	        <eposap:parameter>
 	                <http:paramName>starttime</http:paramName>
-			<rdf:label>Starttime</rdf:label>
+			<rdf:label>Starttime of documents</rdf:label>
 	                <dct:type>time</dct:type>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>endtime</http:paramName>
-			<rdf:label>Endtime</rdf:label>
+			<rdf:label>Endtime of documents</rdf:label>
 	                <dct:type>time</dct:type>
 	        </eposap:parameter>
 	
@@ -62,36 +63,44 @@
 	                <http:paramName>percent_availability_gt</http:paramName>
 			<rdf:label>Data availability percentage greater than</rdf:label>
 	                <dct:type>float</dct:type>
+			<schema:minValue>0</schema:minValue> 
+			<schema:maxValue>100</schema:maxValue>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>percent_availability_lt</http:paramName>
 			<rdf:label>Data availability percentage smaller than</rdf:label>
 	                <dct:type>float</dct:type>
+			<schema:minValue>0</schema:minValue> 
+			<schema:maxValue>100</schema:maxValue>
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_gaps_gt</http:paramName>
 			<rdf:label>Number of data gaps greater than</rdf:label>
 	                <dct:type>integer</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_gaps_lt</http:paramName>
 			<rdf:label>Number of data gaps smaller than</rdf:label>
 	                <dct:type>integer</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_overlaps_gt</http:paramName>
 			<rdf:label>Number of data overlaps greater than</rdf:label>
 	                <dct:type>integer</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>num_overlaps_lt</http:paramName>
 			<rdf:label>Number of data overlaps smaller than</rdf:label>
 	                <dct:type>integer</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
@@ -122,12 +131,14 @@
 	                <http:paramName>max_gap_gt</http:paramName>
 			<rdf:label>Maximum data gap greater than</rdf:label>
 	                <dct:type>float</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
 	                <http:paramName>max_gap_lt</http:paramName>
 			<rdf:label>Maximum data gap smaller than</rdf:label>
 	                <dct:type>float</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 	
 	        <eposap:parameter>
@@ -206,6 +217,7 @@
 	                <http:paramName>minlen</http:paramName>
 			<rdf:label>Limit continuous segments to this length</rdf:label>
 	                <dct:type>float</dct:type>
+			<schema:minValue>0</schema:minValue> 
 	        </eposap:parameter>
 
 	        <eposap:parameter>
@@ -220,13 +232,12 @@
 
 	        <owl:versionInfo>1.0</owl:versionInfo>
 	
-		<dcat:contactPoint> orcid:0000-0002-6250-2474</dcat:contactPoint>
-		<dct:publisher>pic:999518944</dct:publisher>
+		<dcat:contactPoint>orcid-0000-0002-6250-2474</dcat:contactPoint>
+		<eposap:publisher>pic-999518944</eposap:publisher>
 
 		<dct:temporal>
 			<dct:PeriodOfTime>
 				<schema:startDate>1988-01-01T00:00:00</schema:startDate>
-				<schema:endDate/>
 			</dct:PeriodOfTime>
 		</dct:temporal>
 
