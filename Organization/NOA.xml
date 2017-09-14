@@ -14,8 +14,8 @@
         <!-- NOA Organisation -->
 	<eposap:Organisation>
 		<dct:identifier></dct:identifier>
-		<vcard:fn>National Observatory of Athens (NOA)</vcard:fn>
-		<vcard:organization-name>National Observatory of Athens, Institute of Geodynamics</vcard:organization-name>
+		<vcard:fn>NOA National Observatory of Athens</vcard:fn>
+		<vcard:organization-name>NOA National Observatory of Athens, Institute of Geodynamics</vcard:organization-name>
 		<vcard:hasAddress>
 			<vcard:Address>
 				<vcard:street-address>Lofos Nymphon 1 - Thissio</vcard:street-address>
