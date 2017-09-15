@@ -230,10 +230,8 @@
 			<http:paramValue>all</http:paramValue>
 	        </eposap:parameter>
 
-	        <owl:versionInfo>1.0</owl:versionInfo>
-	
-		<dcat:contactPoint>orcid-0000-0002-6250-2474</dcat:contactPoint>
-		<eposap:publisher>pic-999518944</eposap:publisher>
+		<dcat:contactPoint>http://orcid.org/0000-0002-6250-2474</dcat:contactPoint>
+		<eposap:publisher>PIC:999518944</eposap:publisher>
 
 		<dct:temporal>
 			<dct:PeriodOfTime>
