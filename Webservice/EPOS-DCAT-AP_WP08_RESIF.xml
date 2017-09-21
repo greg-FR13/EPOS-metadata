@@ -742,8 +742,8 @@ modeling, RESIF, Dataselect, FDSN-WS,Seismic Waveform, EIDA</dcat:keyword>
       <http:paramValue>all</http:paramValue>
      </eposap:parameter>
 
-     <dcat:contactPoint>http://xxxxxx</dcat:contactPoint>
-     <eposap:publisher>PIC:xxxx</eposap:publisher>
+     <dcat:contactPoint>mailto:datacenter@resif.fr</dcat:contactPoint>
+     <eposap:publisher>PIC:999997930</eposap:publisher>
 
      <dct:temporal>
       <dct:PeriodOfTime>
