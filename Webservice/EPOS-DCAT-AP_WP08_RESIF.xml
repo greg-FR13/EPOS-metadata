@@ -538,17 +538,11 @@ modeling, RESIF, Dataselect, FDSN-WS,Seismic Waveform, EIDA</dcat:keyword>
      </dct:rights>
      <dct:identifier>https://ws.resif.fr/eidaws/wfcatalog/1/</dct:identifier>
      <dct:created>2017-09-21T00:00:00</dct:created>
-     <eposap:domain>
-       Seismology
-     </eposap:domain>
-
-     <eposap:subDomain>
-       Seismic stations
-     </eposap:subDomain>
-
-     <dct:conformsTo>EPSG:4326</dct:conformsTo>
      <eposap:domain>seismology</eposap:domain>
      <eposap:subDomain>waveform quality</eposap:subDomain>
+
+     <dct:conformsTo>EPSG:4326</dct:conformsTo>
+
      <dcat:keyword>EIDA,ODC,dataquality,availability,metrics,waveform,metadata</dcat:keyword>
      <eposap:operation>download</eposap:operation>
      <dct:hasVersion>1.0.0</dct:hasVersion>
